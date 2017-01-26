@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 class Header extends Component {
   render() {
@@ -7,9 +8,9 @@ class Header extends Component {
         <h1>Ben Godfrey</h1>
         <h3>Front End Developer</h3>
         <div className='button-container'>
-          <button className='projects-button'>Projects</button>
-          <button className='about-button'>About</button>
-          <button className='contact-button'>Contact</button>
+          <Link to={'/projects'}><button className='projects-button'>Projects</button></Link>
+          <Link to={'/about'}><button className='about-button'>About</button></Link>
+          <Link to={'/contact'}><button className='contact-button'>Contact</button></Link>
         </div>
       </div>
     );
