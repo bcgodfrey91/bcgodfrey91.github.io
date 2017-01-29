@@ -6,7 +6,6 @@ class Header extends Component {
     return (
       <div className='Header'>
         <h1>Ben Godfrey</h1>
-        <h3>Front End Developer</h3>
         <div className='button-container'>
           <Link to={'/projects'}><button className='projects-button'>Projects</button></Link>
           <Link to={'/about'}><button className='about-button'>About</button></Link>
