@@ -7,7 +7,7 @@ class Projects extends Component {
     return (
       <div className="Projects">
         <span><h1>Projects</h1></span>
-        <div className='project-conatiner'>
+        <div className='project-container'>
           <div className='project-card'>
           <p>img</p>
           <h2 className='project-title'>Electron Audio Conversion</h2>
@@ -22,7 +22,7 @@ class Projects extends Component {
           </div>
         </div>
 
-        <div className='project-conatiner'>
+        <div className='project-container'>
           <div className='project-card'>
           <p>img</p>
           <h2 className='project-title'>Data Hunt</h2>
@@ -38,7 +38,7 @@ class Projects extends Component {
           </div>
         </div>
 
-        <div className='project-conatiner'>
+        <div className='project-container'>
           <div className='project-card'>
           <p>img</p>
           <h2 className='project-title'>Amptron</h2>
@@ -54,7 +54,7 @@ class Projects extends Component {
           </div>
         </div>
 
-        <div className='project-conatiner'>
+        <div className='project-container'>
           <div className='project-card'>
           <p>img</p>
           <h2 className='project-title'>Shoot The Breeze</h2>
@@ -68,7 +68,7 @@ class Projects extends Component {
           </div>
         </div>
 
-        <div className='project-conatiner'>
+        <div className='project-container'>
           <div className='project-card'>
           <p>img</p>
           <h2 className='project-title'>Lights Out</h2>

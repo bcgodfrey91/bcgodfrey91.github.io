@@ -32,22 +32,27 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <section id="contact">
+      <section id='contact'>
         <h1 className='contact-header'>Contact me</h1>
-        <form action="https://formspree.io/bcgodfrey91@gmail.com"
-          method="POST">
-          <input onKeyUp={(e)=>this.nameField(e)} className='name'
-          placeholder='Your Name' type="text" name="name"/>
-          <input onKeyUp={(e)=>this.emailField(e)} className='email'
-          placeholder='Your Email' type="email" name="_replyto"/>
-          <textarea onKeyUp={(e)=>this.messageField(e)} className='message'
-          placeholder='Message' type='text' name="message"></textarea>
-          <input className="submit" type="submit" value="Send"
-          disabled={this.enableSubmit()} />
-          <h1>{this.state.name}</h1>
-          <h1>{this.state.email}</h1>
-          <h1>{this.state.message}</h1>
-        </form>
+        <div className='social-wrapper'>
+          <h1>Social</h1>
+        </div>
+        <div className='contact-form'>
+          <form action="https://formspree.io/bcgodfrey91@gmail.com"
+            method="POST">
+            <input onKeyUp={(e)=>this.nameField(e)} className='name'
+            placeholder='Your Name' type="text" name="name"/>
+            <input onKeyUp={(e)=>this.emailField(e)} className='email'
+            placeholder='Your Email' type="email" name="_replyto"/>
+            <textarea onKeyUp={(e)=>this.messageField(e)} className='message'
+            placeholder='Message' type='text' name="message"></textarea>
+            <input className="submit" type="submit" value="Send"
+            disabled={this.enableSubmit()} />
+            <h1>{this.state.name}</h1>
+            <h1>{this.state.email}</h1>
+            <h1>{this.state.message}</h1>
+          </form>
+        </div>
       </section>
     )
   }
