@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
-import '../App.css';
+import '../styles/App.css';
+import Header from './Header'
+import { browserHistory } from 'react-router';
+
 
 class App extends Component {
+
+  componentDidMount() {
+    browserHistory.push('/projects')
+  }
+
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <h1>Ben Godfrey</h1>
-        </div>
-        <p className="App-intro">
-
-        </p>
+        <Header />
+        <div>{this.props.children}</div>
       </div>
     );
   }
