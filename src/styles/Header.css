@@ -1,0 +1,38 @@
+.button {
+  border: none;
+  border-radius: 5px;
+  color: #F6F6F6;
+  font-size: 20px;
+  height: 45px;
+  width: 90px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.projects-button {
+  background-color: #4663D5;
+}
+
+.projects-button:hover {
+  background-color: #3A52AF;
+}
+
+.about-button {
+  background-color: #DC6784;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.about-button:hover {
+  background-color: #B5556D;
+}
+
+.contact-button {
+  background-color: #32AF9F;
+}
+
+.contact-button:hover {
+  background-color: #207066;
+}

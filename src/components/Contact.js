@@ -48,9 +48,6 @@ class Contact extends React.Component {
             placeholder='Message' type='text' name="message"></textarea>
             <input className="submit" type="submit" value="Send"
             disabled={this.enableSubmit()} />
-            <h1>{this.state.name}</h1>
-            <h1>{this.state.email}</h1>
-            <h1>{this.state.message}</h1>
           </form>
         </div>
       </section>

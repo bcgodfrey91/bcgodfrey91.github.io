@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import '../styles/Projects.css';
+import npmLogo from '../images/npm-logo.png'
+import amptron from '../images/amptron.png'
+import shootTheBreeze from '../images/shoot-the-breeze.png'
+
 
 
 class Projects extends Component {
@@ -9,8 +13,8 @@ class Projects extends Component {
         <span><h1>Projects</h1></span>
         <div className='project-container'>
           <div className='project-card'>
-          <p>img</p>
-          <h2 className='project-title'>Electron Audio Conversion</h2>
+            <img src={npmLogo} alt='NPM logo' />
+            <h3 className='project-title'>Electron Audio Conversion</h3>
           </div>
           <div className='project-info'>
             <ul className='project-technologies'>
@@ -24,8 +28,8 @@ class Projects extends Component {
 
         <div className='project-container'>
           <div className='project-card'>
-          <p>img</p>
-          <h2 className='project-title'>Data Hunt</h2>
+            <p>img</p>
+            <h2 className='project-title'>Data Hunt</h2>
           </div>
           <div className='project-info'>
             <ul className='project-technologies'>
@@ -39,9 +43,9 @@ class Projects extends Component {
         </div>
 
         <div className='project-container'>
-          <div className='project-card'>
-          <p>img</p>
-          <h2 className='project-title'>Amptron</h2>
+          <div className='project-card amptron'>
+            <img src={amptron} alt='Amptron music player' />
+            <h2 className='project-title'>Amptron</h2>
           </div>
           <div className='project-info'>
             <ul className='project-technologies'>
@@ -55,9 +59,9 @@ class Projects extends Component {
         </div>
 
         <div className='project-container'>
-          <div className='project-card'>
-          <p>img</p>
-          <h2 className='project-title'>Shoot The Breeze</h2>
+          <div className='project-card stb'>
+            <img src={shootTheBreeze} alt='Shoot The Breeze chatroom' />
+            <h2 className='project-title'>Shoot The Breeze</h2>
           </div>
           <div className='project-info'>
             <ul className='project-technologies'>
@@ -70,8 +74,8 @@ class Projects extends Component {
 
         <div className='project-container'>
           <div className='project-card'>
-          <p>img</p>
-          <h2 className='project-title'>Lights Out</h2>
+            <p>img</p>
+            <h2 className='project-title'>Lights Out</h2>
           </div>
           <div className='project-info'>
             <ul className='project-technologies'>

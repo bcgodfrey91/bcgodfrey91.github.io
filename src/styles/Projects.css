@@ -1,3 +1,21 @@
+.Projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-container {
+  border-bottom: 1px black solid;
+}
+
 .project-info {
   display: none;
+}
+
+img {
+  height: 45%;
+  width: 90%;
+}
+
+.amptron, .stb {
+  margin-top: 5%;
 }
