@@ -1,4 +1,10 @@
 import React from 'react';
+import '../styles/Contact.css';
+import github from '../images/github.svg'
+import linkedIn from '../images/linkedIn.svg'
+import twitter from '../images/twitter.svg'
+import instagram from '../images/instagram.svg'
+
 
 class Contact extends React.Component {
   constructor(){
@@ -33,9 +39,29 @@ class Contact extends React.Component {
   render() {
     return (
       <section id='contact'>
-        <h1 className='contact-header'>Contact me</h1>
+        <span><h1>Get In Touch</h1></span>
         <div className='social-wrapper'>
-          <h1>Social</h1>
+          <h1 className='reach-me'>You can reach me at:</h1>
+          <img
+            className='social-icon'
+            src={github}
+            alt='Ben on Github'
+          />
+          <img
+            className='social-icon'
+            src={linkedIn}
+            alt='Ben on LinkedIn'
+          />
+          <img
+            className='social-icon'
+            src={twitter}
+            alt='Ben on Twitter'
+          />
+          <img
+            className='social-icon'
+            src={instagram}
+            alt='Ben on Instagram'
+          />
         </div>
         <div className='contact-form'>
           <form action="https://formspree.io/bcgodfrey91@gmail.com"
