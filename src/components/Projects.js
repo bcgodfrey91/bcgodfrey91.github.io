@@ -10,9 +10,9 @@ class Projects extends Component {
   renderProjects() {
     return helpers.projects.map(project => {
       return (
-          <div className='project-container'>
+          <div key={project.id} className={`project-container-${project.id}`}>
             <div className='project-card'>
-              <img src={project.img} alt='NPM logo' />
+              <img src={project.img} alt={project.alt} />
               <h3 className='project-title'>{project.name}</h3>
             </div>
             <div className='project-info'>
