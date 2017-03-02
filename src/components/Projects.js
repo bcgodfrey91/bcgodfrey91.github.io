@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import '../styles/Projects.css';
-import npmLogo from '../images/npm-logo.png'
-import amptron from '../images/amptron.png'
-import shootTheBreeze from '../images/shoot-the-breeze.png'
 import helpers from './projectHelper'
 
 class Projects extends Component {
@@ -10,17 +7,23 @@ class Projects extends Component {
   renderProjects() {
     return helpers.projects.map(project => {
       return (
-          <div key={project.id} className={`project-container-${project.id}`}>
-            <div className='project-card'>
-              <img src={project.img} alt={project.alt} />
-              <h3 className='project-title'>{project.name}</h3>
-            </div>
+        <a
+          key={project.id}
+          className='project-link'
+          href={project.url}
+        >
+          <div
+            className={`project-container ${project.class}`}
+          >
             <div className='project-info'>
-              <div className='project-technologies'>
-                <p>{project.technologies}</p>
-              </div>
+              <h3 className='project-title'>{project.name}</h3>
+              <h3 className='project-technologies'
+              >
+              {project.technologies}
+              </h3>
             </div>
           </div>
+        </a>
       )
     })
   }
@@ -28,7 +31,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className="Projects">
+      <div id="projects">
         <span><h1>Projects</h1></span>
         {this.renderProjects()}
       </div>
