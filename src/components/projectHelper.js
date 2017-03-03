@@ -30,7 +30,7 @@ export default {
       name: 'Lights Out',
       alt: 'A game pad for Lights Out',
       class: 'lights-out',
-      description: 'The classic game of Lights Out built using jQuery.'
+      description: 'The classic game of Lights Out, built using jQuery.'
     },
   ]
 }

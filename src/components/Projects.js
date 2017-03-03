@@ -17,7 +17,8 @@ class Projects extends Component {
           >
             <div className='project-info'>
               <h3 className='project-name'>{project.name}</h3>
-              <h3 className='project-technologies'
+              <div className='divider'></div>
+              <h3 className='project-description'
               >
               {project.description}
               </h3>
