@@ -16,7 +16,7 @@ class Projects extends Component {
             className={`project-container ${project.class}`}
           >
             <div className='project-info'>
-              <h3 className='project-title'>{project.name}</h3>
+              <h3 className='project-name'>{project.name}</h3>
               <h3 className='project-technologies'
               >
               {project.technologies}

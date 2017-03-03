@@ -3,10 +3,10 @@ export default {
     {
       id: 1,
       url: 'https://www.npmjs.com/package/electron-audio-conversion',
-      name: 'NPM Package',
+      name: 'Electron Audio Conversion',
       alt: 'NPM Logo',
       class: 'npm-package',
-      technologies: 'ES6, Node.js, and Babel'
+      technologies: 'An NPM module that converts local media files into dataURLs for HTML5.'
     },
     {
       id: 2,
@@ -14,15 +14,15 @@ export default {
       name: 'Amptron Music Player',
       alt: 'A music player built in Vue and Electron',
       class: 'amptron',
-      technologies: 'HTML5 Audio, Electron, Vue.js, Node.js'
+      technologies: 'A desktop music player built in Electron and Vue.js.'
     },
     {
       id: 3,
       url: 'https://github.com/swanie21/shoot-the-breeze',
       name: 'Shoot The Breeze',
-      alt: 'A chat application.',
+      alt: 'A chat application',
       class: 'stb',
-      technologies: 'React & Firebase'
+      technologies: 'A chat application in React and Firebase.'
     },
     {
       id: 4,
@@ -30,7 +30,7 @@ export default {
       name: 'Lights Out',
       alt: 'A game pad for Lights Out',
       class: 'lights-out',
-      technologies: 'jQuery'
+      technologies: 'The classic game of Lights Out built using jQuery.'
     },
   ]
 }
