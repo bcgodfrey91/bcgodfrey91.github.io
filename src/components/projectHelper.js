@@ -1,36 +1,36 @@
-import npmLogo from '../images/npm-logo.png'
-import amptron from '../images/amptron.png'
-import shootTheBreeze from '../images/shoot-the-breeze.png'
-
 export default {
   projects:[
     {
       id: 1,
-      name: 'NPM Package',
-      img: npmLogo,
+      url: 'https://www.npmjs.com/package/electron-audio-conversion',
+      name: 'Electron Audio Conversion',
       alt: 'NPM Logo',
-      technologies: 'ES6, Node.js, and Babel'
+      class: 'npm-package',
+      description: 'An NPM module that converts local media files into dataURLs for HTML5.'
     },
     {
       id: 2,
+      url: 'https://github.com/Jeff-Duke/amptron',
       name: 'Amptron Music Player',
-      img: amptron,
       alt: 'A music player built in Vue and Electron',
-      technologies: 'HTML5 Audio, Electron, Vue.js, Node.js'
+      class: 'amptron',
+      description: 'A desktop music player built in Electron and Vue.js.'
     },
     {
       id: 3,
+      url: 'https://github.com/swanie21/shoot-the-breeze',
       name: 'Shoot The Breeze',
-      img: shootTheBreeze,
-      alt: 'A chat application.',
-      technologies: 'React & Firebase'
+      alt: 'A chat application',
+      class: 'stb',
+      description: 'A chat application in React and Firebase.'
     },
     {
       id: 4,
+      url: 'https://github.com/bcgodfrey91/game-time-lights-out',
       name: 'Lights Out',
-      img: '',
       alt: 'A game pad for Lights Out',
-      technologies: 'jQuery'
+      class: 'lights-out',
+      description: 'The classic game of Lights Out, built using jQuery.'
     },
   ]
 }
