@@ -19,7 +19,7 @@ class Projects extends Component {
               <h3 className='project-name'>{project.name}</h3>
               <h3 className='project-technologies'
               >
-              {project.technologies}
+              {project.description}
               </h3>
             </div>
           </div>
