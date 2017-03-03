@@ -3,7 +3,56 @@
 }
 
 .social-icon {
-  margin-top: 0;
+  margin: 10px 15px 0 15px;
   height: 50px;
   width: 50px;
+}
+
+.github, .twitter {
+  animation: social-icon-forward infinite 100s linear;
+}
+
+.linkedin, .instagram {
+  animation: social-icon-backwards infinite 100s linear;
+}
+
+@keyframes social-icon-forward {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes social-icon-backwards {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+.contact-form-container {
+  margin-top: 5px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input, .form-message {
+  border: none;
+  border-radius: 10px;
+  height: 53px;
+  margin: 10px;
+}
+
+.form-input {
+  font-size: 27px;
+  text-align: center;
+}
+
+.form-button {
+  align-self: center;
+  border: none;
+  border-radius: 5px;
+  color: #F6F6F6;
+  font-size: 20px;
+  height: 45px;
+  width: 90px;
 }
