@@ -39,29 +39,39 @@ class Contact extends React.Component {
   render() {
     return (
       <section id='contact'>
-        <span><h1>Get In Touch</h1></span>
+        <span>
+          <h1>Get In Touch</h1>
+        </span>
         <div className='social-container'>
           <h1 className='reach-me'>You can reach me at:</h1>
-          <img
-            className='social-icon github'
-            src={github}
-            alt='Ben on Github'
-          />
-          <img
-            className='social-icon linkedin'
-            src={linkedIn}
-            alt='Ben on LinkedIn'
-          />
-          <img
-            className='social-icon twitter'
-            src={twitter}
-            alt='Ben on Twitter'
-          />
-          <img
-            className='social-icon instagram'
-            src={instagram}
-            alt='Ben on Instagram instagram'
-          />
+          <a href="https://www.linkedin.com/in/benjamin-godfrey-21423791?trk">
+            <img
+              className='social-icon linkedin'
+              src={linkedIn}
+              alt='Ben on LinkedIn'
+            />
+          </a>
+          <a href="https://github.com/bcgodfrey91">
+            <img
+              className='social-icon github'
+              src={github}
+              alt='Ben on Github'
+            />
+          </a>
+          <a href="https://twitter.com/BenTheHuman">
+            <img
+              className='social-icon twitter'
+              src={twitter}
+              alt='Ben on Twitter'
+            />
+          </a>
+          <a href="https://www.instagram.com/based_godfrey">
+            <img
+              className='social-icon instagram'
+              src={instagram}
+              alt='Ben on Instagram instagram'
+            />
+          </a>
         </div>
         <div className='contact-form-container'>
           <form

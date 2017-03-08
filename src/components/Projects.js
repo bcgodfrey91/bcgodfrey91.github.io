@@ -36,7 +36,7 @@ class Projects extends Component {
         <div className='project-header'>
           <h1>Vision Board</h1>
         </div>
-          {this.renderProjects()}
+        {this.renderProjects()}
       </div>
     );
   }

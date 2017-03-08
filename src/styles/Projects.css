@@ -6,6 +6,7 @@
 
 .project-header {
   border-bottom: solid 1px #2a2a2a;
+  margin-bottom: 5%;
   width: 90%;
 }
 
@@ -67,7 +68,6 @@
 
 .npm-package {
   background-image: url('../images/npm-logo.png');
-  margin-top: 5%;
 }
 
 .npm-package:hover {
