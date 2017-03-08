@@ -33,8 +33,10 @@ class Projects extends Component {
   render() {
     return (
       <div id="projects">
-        <span><h1>Vision Board</h1></span>
-        {this.renderProjects()}
+        <div className='project-header'>
+          <h1>Vision Board</h1>
+        </div>
+          {this.renderProjects()}
       </div>
     );
   }

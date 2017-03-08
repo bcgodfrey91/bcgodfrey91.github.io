@@ -1,6 +1,5 @@
 .Header {
   align-content: center;
-  background-color: #4663D5;
   display: flex;
   flex-direction: column;
   height: 150px;
@@ -14,10 +13,12 @@
 
 .button-container {
   margin-top: 5%;
+  margin-bottom: 0;
 }
 
 .button {
   border: none;
+  background-color: #00caca;
   border-radius: 5px;
   color: #F6F6F6;
   font-size: 20px;
@@ -26,31 +27,11 @@
 }
 
 .button:hover {
+  background-color: #0085a1;
   cursor: pointer;
 }
 
-.projects-button {
-  background-color: #4663D5;
-}
-
-.projects-button:hover {
-  background-color: #3A52AF;
-}
-
 .about-button {
-  background-color: #DC6784;
-  margin-right: 2%;
-  margin-left: 2%;
-}
-
-.about-button:hover {
-  background-color: #B5556D;
-}
-
-.contact-button {
-  background-color: #32AF9F;
-}
-
-.contact-button:hover {
-  background-color: #207066;
+  margin-right: .5%;
+  margin-left: .5%;
 }
