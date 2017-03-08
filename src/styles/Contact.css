@@ -1,3 +1,22 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-header {
+  border-bottom: solid 1px #2a2a2a;
+  margin-bottom: 5%;
+  width: 90%;
+}
+
+.contact-header h1 {
+  font-size: 2em;
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+}
+
 .reach-me {
   margin: 0px;
 }
@@ -47,12 +66,22 @@
   text-align: center;
 }
 
+.form-message {
+  text-indent: 2%;
+}
+
 .form-button {
   align-self: center;
+  background-color: #2a2a2a;
   border: none;
   border-radius: 5px;
   color: #F6F6F6;
   font-size: 20px;
   height: 45px;
   width: 90px;
+}
+
+.form-button:hover {
+  background-color: #00caca;
+  cursor: pointer;
 }

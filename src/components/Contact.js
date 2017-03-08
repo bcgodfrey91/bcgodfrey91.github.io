@@ -39,9 +39,9 @@ class Contact extends React.Component {
   render() {
     return (
       <section id='contact'>
-        <span>
+        <div className='contact-header'>
           <h1>Get In Touch</h1>
-        </span>
+        </div>
         <div className='social-container'>
           <h1 className='reach-me'>You can reach me at:</h1>
           <a href="https://www.linkedin.com/in/benjamin-godfrey-21423791?trk">
