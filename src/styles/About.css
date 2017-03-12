@@ -1,0 +1,24 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-header {
+  border-bottom: solid 1px #2a2a2a;
+  margin-bottom: 5%;
+  width: 90%;
+}
+
+.about-header h1 {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 90%;
+}
