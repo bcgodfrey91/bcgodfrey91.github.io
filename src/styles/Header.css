@@ -2,8 +2,9 @@
   align-content: center;
   display: flex;
   flex-direction: column;
-  height: 150px;
+  height: 140px;
   justify-content: center;
+  margin-bottom: 0;
 }
 
 .header-name {
@@ -12,7 +13,7 @@
 }
 
 .button-container {
-  margin-top: 5%;
+  margin-top: 15px;
   margin-bottom: 0;
 }
 

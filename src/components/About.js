@@ -14,7 +14,7 @@ class About extends Component {
           </p>
           <br />
           <p>
-            I currently reside in Dallas, Texas, but have an undying impulse to travel that keeps me moving around as often my bank account allows. When I'm not coding or traveling, you can find me around live music, managing rappers, attempting to stay fit, or aimlessly roaming the internet.
+            I currently reside in Dallas, Texas, but have an undying impulse to travel that keeps me moving around as often my bank account allows. When I'm not coding or traveling, you can find me around live music, managing rappers, attempting to get to the gym, or aimlessly roaming the internet.
           </p>
           <br />
           <p>
