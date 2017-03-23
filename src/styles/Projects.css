@@ -16,6 +16,12 @@
   padding: 0;
 }
 
+.project-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .project-link {
   align-self: center;
   color: transparent;
@@ -106,6 +112,30 @@
   .project-link {
     height: 25em;
     width: 90%;
+  }
+
+}
+
+@media (min-width: 630px) {
+
+  .project-link {
+    height: 20em;
+    width: 49%;
+  }
+
+  .project-list {
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: wrap;
+  }
+
+}
+
+@media (min-width: 830px) {
+
+  .project-link {
+    height: 25em;
+    width: 49%;
   }
 
 }

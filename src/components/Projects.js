@@ -17,7 +17,6 @@ class Projects extends Component {
           >
             <div className='project-info'>
               <h3 className='project-name'>{project.name}</h3>
-              <div className='divider'></div>
               <h3 className='project-description'
               >
               {project.description}
@@ -32,11 +31,13 @@ class Projects extends Component {
 
   render() {
     return (
-      <div id="projects">
-        <div className='project-header'>
-          <h1>Vision Board</h1>
-        </div>
+      <div id='projects'>
+      <div className='project-header'>
+        <h1>Vision Board</h1>
+      </div>
+      <div className='project-list'>
         {this.renderProjects()}
+      </div>
       </div>
     );
   }
