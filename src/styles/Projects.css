@@ -6,7 +6,7 @@
 
 .project-header {
   border-bottom: solid 1px #2a2a2a;
-  margin-bottom: 15px;
+  margin: 0px 0 25px 0;
   width: 90%;
 }
 
@@ -65,10 +65,12 @@
 }
 
 .project-name {
-  font-size: 12px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
 }
 
 .project-description {
+  font-family: 'Roboto Mono', monospace;
   font-size: 18px;
   text-decoration: none;
 }
@@ -117,6 +119,14 @@
 
 }
 
+@media (min-width: 490px) {
+
+  .project-header{
+    margin: 10px 0 25px 0;
+  }
+
+}
+
 @media (min-width: 630px) {
 
   .project-link {
@@ -132,11 +142,28 @@
 
 }
 
+@media (min-width: 670px) {
+
+  .project-header{
+    margin: 20px 0 25px 0;
+  }
+
+}
+
+
 @media (min-width: 830px) {
 
   .project-link {
     height: 25em;
     width: 49%;
+  }
+
+}
+
+@media (min-width: 1px) {
+
+  .project-description {
+    font-size: 16px;
   }
 
 }
