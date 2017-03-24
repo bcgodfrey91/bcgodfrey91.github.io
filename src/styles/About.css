@@ -24,5 +24,31 @@
 }
 
 .about-content p {
+  font-size: 1.2em;
+}
+
+@media (min-width: 350px) {
+
+  .about-content {
+    width: 80%;
+  }
+
+}
+
+@media (min-width: 630px) {
+
+  .about-content {
+    width: 70%;
+    font-size: 1.25em;
+  }
+
+}
+
+@media (min-width: 900px) {
+
+  .about-content {
+    width: 50%;
+    font-size: 1.3em;
+  }
 
 }
