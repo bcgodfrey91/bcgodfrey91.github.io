@@ -67,11 +67,13 @@
 }
 
 .form-input {
-  font-size: 27px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 24px;
   text-align: center;
 }
 
 .form-message {
+  font-family: 'Roboto Mono', monospace;
   text-indent: 2%;
 }
 
@@ -81,6 +83,7 @@
   border: none;
   border-radius: 5px;
   color: #F6F6F6;
+  font-family: 'Roboto Mono', monospace;
   font-size: 20px;
   height: 45px;
   width: 90px;
