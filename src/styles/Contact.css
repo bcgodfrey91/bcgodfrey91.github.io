@@ -17,6 +17,10 @@
   padding: 0;
 }
 
+.social-container a h4 {
+  display: none;
+}
+
 .reach-me {
   margin: 0px;
 }
@@ -44,6 +48,7 @@
   from { transform: rotate(360deg); }
   to { transform: rotate(0deg); }
 }
+
 
 .contact-form-container {
   margin-top: 5px;
@@ -84,4 +89,68 @@
 .form-button:hover {
   background-color: #00caca;
   cursor: pointer;
+}
+
+.contact-footer {
+  position: absolute;
+  bottom: 1000px;
+}
+
+@media (min-width: 540px) {
+
+  .contact-header {
+    width: 70%;
+  }
+
+}
+
+
+@media (min-width: 945px) {
+
+  .contact-container {
+    width: 55%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .social-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    align-items: flex-start;
+  }
+
+  .social-container a {
+    display: block;
+    color: #2a2a2a;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social-container a h4 {
+    display: block;
+  }
+
+  .contact-form-container {
+    margin-top: 20px;
+  }
+
+}
+
+@media (min-width: 1050px) {
+  .contact-form {
+    width: 100%;
+  }
+
+  .form-input, .form-message {
+    width: 100%;
+  }
+
+  .form-message {
+    font-size: 20px;
+    height: 80px;
+  }
 }

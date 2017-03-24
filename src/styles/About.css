@@ -16,6 +16,11 @@
   padding: 0;
 }
 
+#about img {
+  height: 50%;
+  width: 90%;
+}
+
 .about-content {
   display: flex;
   flex-direction: column;
@@ -29,22 +34,40 @@
 
 @media (min-width: 350px) {
 
+  .about-header {
+    width: 90%;
+  }
+
   .about-content {
     width: 80%;
   }
 
+
 }
 
 @media (min-width: 630px) {
+
+  #about img {
+    width: 80%;
+  }
 
   .about-content {
     width: 70%;
     font-size: 1.25em;
   }
 
+
 }
 
 @media (min-width: 900px) {
+
+  #about img {
+    width: 55%;
+  }
+
+  .about-header {
+    width: 70%;
+  }
 
   .about-content {
     width: 50%;
