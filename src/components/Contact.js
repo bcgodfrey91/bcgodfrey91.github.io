@@ -100,7 +100,7 @@ class Contact extends React.Component {
               <textarea
                 onKeyUp={(e)=>this.messageField(e)}
                 className='form-message'
-                placeholder={`Say What's Up!`}
+                placeholder={`What's Up?`}
                 type='text'
                 name="message"
               >

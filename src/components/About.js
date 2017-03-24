@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 import '../styles/About.css';
 import me from '../images/it-me.jpeg'
 
@@ -20,7 +21,7 @@ class About extends Component {
             I currently reside in Dallas, Texas, but have an undying impulse to travel that keeps me moving around as often my bank account allows. When I'm not coding or traveling, you can find me around live music, managing rappers, attempting to get to the gym, or aimlessly roaming the internet.
           </p>
           <p>
-            If you'd like to know more, feel free to reach out to me in whichever way feels most comfortable.
+            If you'd like to know more, feel free to <Link to={'/contact'}>reach out</Link> to me in whichever way feels most comfortable.
           </p>
         </div>
       </div>

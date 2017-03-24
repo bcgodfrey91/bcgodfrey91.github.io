@@ -110,12 +110,16 @@
     width: 70%;
   }
 
+  .contact-form-container {
+    width: 500px;
+  }
+
 }
 
 @media (min-width: 670px) {
 
   .contact-header{
-    margin: 20px 0 25px 0;
+    margin: 25px 0 25px 0;
   }
 
 }
