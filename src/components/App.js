@@ -7,6 +7,10 @@ import { browserHistory } from 'react-router';
 
 class App extends Component {
 
+  componentDidMount() {
+    browserHistory.push('/about')
+  }
+
   render() {
     return (
       <div className="App">
